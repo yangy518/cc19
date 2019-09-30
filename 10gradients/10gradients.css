@@ -1,0 +1,323 @@
+body {
+    font-family: Helvetica;
+    margin: 30px;
+}
+
+/*Selects all H1 */
+section {
+    width: 80%;
+    float: bottom;
+}
+
+/*Selects all H1 */
+h1 {
+    margin: 0;
+}
+
+/*Selects all H1 tags inside of an element with the ID "adventure"*/
+#adventure h1 {
+    font-size: 70px;
+}
+
+/*Selects anything with the class "adventure-1" */
+#adventure-1 {
+    opacity: 1;
+    margin-bottom: 0px;
+}
+#adventure-2 {
+    opacity: .88;
+}
+#adventure-3 {
+    opacity: .66;
+}
+#adventure-4 {
+    opacity: .44;
+}
+#adventure-5 {
+    opacity: .22;
+}
+#adventure-6 {
+    opacity: .11;
+}
+
+
+
+#red-purple h1 {
+    font-size: 100px;
+    margin: 0;
+    display: inline;
+    word-break: break-all;
+    hyphens: auto;
+}
+#red {
+    color: red;
+}
+#orange {
+    color: orangered;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
+#mint {
+    color: mediumaquamarine;
+}
+#skyblue {
+    color: deepskyblue;
+}
+#darkblue {
+    color: darkblue;
+}
+#plum {
+    color: plum;
+}
+#pink {
+    color: hotpink;
+}
+#purple {
+    color: rebeccapurple;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+/*Selects all H1 tags inside of an element with the ID "adventure"*/
+
+/*Selects anything with the class "adventure-1" */
+#size-1 {
+    opacity: 1;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#size-2 {
+           font-size: 40px
+
+}
+#size-3 {
+font-size: 30px;
+}
+#size-4 {
+font-size: 20px;
+}
+#size-5 {
+font-size: 10px;
+}
+
+
+
+
+#holidays h1 {
+    font-size: 70px;
+    margin: 0;
+    display: block;
+    word-break: break-all;
+    hyphens: auto;
+}
+#Halloween {
+    color: darkorange;
+    border: 1px solid darkorange;
+}
+#Thanksgiving {
+    color: darkred;
+    border: 1px solid darkred;
+}
+#Christmas {
+    color: red;
+    border: 1px solid darkgreen;
+}
+#New_Year {
+    color: skyblue;
+    border: 1px solid cadetblue;
+}
+#New_Year_Chinese {
+    color: black;
+    border: 1px solid firebrick;
+}
+
+#Easter{
+    color: mediumpurple;
+    border: 1px solid mediumspringgreen;
+}
+
+
+
+#ways_to_say_hi h1 {
+    font-size: 250px;
+    margin: 30px;
+    display: inline;
+    word-break: break-all;
+    hyphens: auto;
+}
+#Hi {
+opacity: 1%
+}
+#Hey {
+opacity: 0.95}
+
+#Heylo {
+opacity: 0.87}
+
+#Hello {
+opacity: 0.75}
+#Hola {
+    opacity: 0.6;
+}
+#Heyy {
+opacity: 0.48
+}
+#Halo {
+opacity: 0.2}
+#Hai {
+opacity: 0.1}
+
+
+
+#gradients h1{
+    display: block;
+
+}
+
+#six{
+    background-color: #0000FF
+}
+
+#five{
+    background-color: #2E2EFF
+}
+
+#four{
+     background-color: #5C5CFF
+}
+
+#three{
+    background-color: #8B8BFF
+}
+
+#two{
+    background-color: #A2A2FF;
+}
+
+#one{
+    background-color: #D0D0FF;
+}
+
+#zero{
+    background-color: #E7E7FF;
+}
+
+
+#weather h1{
+    display: inline-block;
+    font-size: 100px;
+    color: white;
+
+}
+
+#hot{
+    background-color: darkred;
+    font-family: Futura;
+}
+
+#warm{
+    background-color: orangered;
+    font-family: "Gill Sans";
+
+}
+
+#normal{
+    background-color: yellowgreen;
+    font-family: Baskerville;
+
+}
+
+#cool{
+    background-color: #A2A2FF;
+    font-family: Helvetica;
+}
+
+#cold{
+    background-color: dodgerblue;
+    font-family: Impact;
+}
+#freezing{
+    background-color: cadetblue;
+    font-family: "Times New Roman";
+}
+
+#time h1{
+    font-size: 130px;
+    margin: 0;
+    display: inline-block;
+    font-family: "Comic Sans MS";
+}
+
+#morning{
+    color: coral;
+    background-color: gold;
+}
+
+#afternoon{
+    color: royalblue;
+    background-color: skyblue;
+}
+
+#evening{
+    color: darkblue;
+    background-color: #2E2EFF;
+}
+
+#night{
+    color: purple;
+    background-color: black;
+
+}
+
+#dawn{
+    color: lightgray;
+    background-color: darkslategray;
+}
+
+
+#happy{
+    font-family: Futura;
+    display: inline-block;
+}
+
+#happy_1{
+    font-size: 120px;
+    background-image: linear-gradient(to right, darkorange , dimgrey);
+}
+#happy_2{
+    font-size: 80px;
+    /*background-color: gold;*/
+    color: gold;
+}
+#happy_o{
+    font-size: 80px;
+    color: dimgrey;
+}
+
+#sad{
+    font-family: futura;
+    display: inline-block;
+}
+
+#sad_1{
+    font-size: 120px;
+    background-image: linear-gradient(to right, darkolivegreen, hotpink)
+}
+
+#sad_2{
+    font-size: 50px;
+    color: darkolivegreen;
+}
+
+#sad_o{
+    font-size: 50px;
+    color: hotpink;
+}
