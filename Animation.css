@@ -1,0 +1,126 @@
+html, body{
+    /*margin: 0;*/
+    /*height: 100px;*/
+
+}
+.square{
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+    border-radius: 50%;
+    position: relative;
+    animation: square 6s;
+    transition: background-color 0.5s ease;
+
+}
+
+@keyframes square {
+    /*from {background-color: red;}*/
+    /*to {background-color: darkgreen;}*/
+0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    100% {background-color: green; left:0px; top:0px;}
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    animation: second 5s ;
+    animation-delay: 5s;
+    /*background-color: red;*/
+    border-radius: 30%;
+    position: relative;
+    transition: background-color 0.5s ease;
+}
+@keyframes second{
+    0% {background-color: hotpink;left: 0; top: 0;}
+    25% {background-color: yellow; left: 200px; top: 0;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    100% {background-color: green; left:0; top:0;}
+}
+
+
+.fourth{
+    width: 300px;
+    height: 300px;
+    animation: second 5s ;
+    animation-delay: 10s;
+    /*background-color: red;*/
+    border-radius: 30%;
+    position: absolute;
+    transition: background-color 0.5s ease;
+}
+@keyframes fourth{
+    0% {background-color: darkgreen;left: 0; top: 0;}
+    25% {background-color: black; left: 800px; top: 0;}
+    50% {background-color: darkred; left: 800px; top: 800px;}
+    100% {background-color: purple; left:0; top:0;}
+}
+
+.overlap{
+    width: 200px;
+    height: 200px;
+    animation: second 5s ;
+    animation-delay: 5s;
+    /*background-color: red;*/
+    border-radius: 30%;
+    position: relative;
+    transition: background-color 0.5s ease;
+  }
+
+@keyframes overlap{
+    0% {background-color: hotpink;left: 200px; top: 0px;}
+    25% {background-color: yellow; left: 400px; top: 200px;}
+    50% {background-color: blue; left: 400px; top: 400px;}
+    100% {background-color: green; left:0; top:200px;}
+}
+.third{
+    width: 500px;
+    height: 500px;
+    animation: third 5s ;
+    animation-delay: 10s;
+    border-radius: 0%;
+    position: relative;
+    transition: background-color 0.2s linear;
+}
+
+@keyframes third{
+    0% {background-color: hotpink;left: 0; top: 0;}
+    25% {background-color: yellow; left: 200px; top: 0;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    100% {background-color: green; left:0; top:0;}
+}
+.fifth{
+    width: 300px;
+    height: 300px;
+    animation: second 5s ;
+    animation-delay: 15s;
+    /*background-color: red;*/
+    border-radius: 30%;
+    position: absolute;
+    transition: background-color 0.5s ease;
+}
+@keyframes fifth{
+    0% {background-color: darkgreen;left: 0; top: 0;}
+    25% {background-color: black; left: 800px; top: 0;}
+    50% {background-color: darkred; left: 800px; top: 800px;}
+    100% {background-color: purple; left:0; top:0;}
+}
+
+.sixth{
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+    border-radius: 50%;
+    position: relative;
+    animation: square 6s;
+    animation-delay: 20s;
+    transition: background-color 0.5s ease;
+}
+@keyframes sixth {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    100% {background-color: green; left:0px; top:0px;}
+}
