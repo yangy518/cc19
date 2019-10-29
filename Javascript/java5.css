@@ -1,0 +1,37 @@
+* {box-sizing: border-box;
+}
+body{ margin:0;
+    /*font-family: futura*/
+}
+
+.title{
+    font-size: 70px;
+    color: black;
+    border-bottom: 2px solid deeppink;
+    height: 200px;
+    /*margin: 20px;*/
+    padding: 10px;
+}
+
+.subtitle{
+    padding: 25px;
+    font-size: 30px;
+    display: inline-block;
+    border-right: 2px solid black;
+    height: 600px;
+
+}
+
+.context{
+    display: inline-block;
+    height: 120px;
+    width: calc(100vw - 300px);
+    font-size: 20px;
+    vertical-align: top;
+    padding: 20px;
+
+}
+
+.colortext{
+    background-color: lightcoral;
+}

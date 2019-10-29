@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson_7</title>
+    <link  rel="stylesheet" href="java4.css">
+
+</head>
+<body>
+ <div class="title" id="title">
+     From White to Pink,
+ </div>
+
+<div class="subtitle" id="subtitle">
+    <div>  ♡ </div>
+    <div> 	♥ </div>
+    <div> ❥ </div>
+
+</div>
+
+<div  class="context" id="context">
+    Combine a red shade with white until you get the desired pink hue.<br/>
+    The more white you add to the red, the lighter the pink will be. <br/>
+    Reverse the button twice to make it all pink!
+    <span class="colortext" id="colortext">
+        For pink food coloring:
+    </span>
+</div>
+<button type="button" onclick="reversecolor() "> Make it pink! </button>
+
+</body>
+<script>
+
+    let notReversed = true;
+
+
+    function reversecolor() {
+
+        if (notReversed) {
+            document.querySelector('#title').style.color = 'white';
+            document.querySelector('#title').style.backgroundColor = 'pink';
+            document.querySelector('#title').style.borderBottom = '1px solid white';
+            document.querySelector('#subtitle').style.color = 'white';
+            document.querySelector('#subtitle').style.backgroundColor = 'pink';
+            document.querySelector('#subtitle').style.borderRight = '2px solid white';
+            document.querySelector('#context').style.color = 'white';
+            document.querySelector('#context').style.backgroundColor = 'pink';
+
+            notReversed = false;
+            //
+
+        } else {
+            document.querySelector('#title').style.color = 'pink';
+            document.querySelector('#title').style.backgroundColor = 'white';
+            document.querySelector('#title').style.borderBottom = '1px solid pink';
+            document.querySelector('#subtitle').style.color = 'pink';
+            document.querySelector('#subtitle').style.backgroundColor = 'white';
+            document.querySelector('#subtitle').style.borderRight = '2px solid pink';
+            document.querySelector('#context').style.color = 'pink';
+            document.querySelector('#context').style.backgroundColor = 'white';
+
+            notReversed = true;
+        }
+    }
+
+</script>
+
+
+
+</html>
