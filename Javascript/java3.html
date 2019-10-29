@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson6</title>
+    <link rel="stylesheet" href="java3.css">
+
+</head>
+<body>
+hello
+
+<div id="my_division">
+<!--    \ css 에서는 class 를 사용하고, javascript 에서는 id를 쓴다.->&ndash;&gt;-->
+<!--hello id-->
+    <div id="name">
+
+    </div>
+
+    <div id="age"> </div>
+
+</div>
+<script>
+
+    console.log('hello javascript!');
+    //console 창에서만
+    alert('warning!');
+    //메인화면에서
+
+    let name = 'Name';
+
+
+    let age = 0;
+
+
+    let isAlive = true;
+
+    age = prompt('how old are you?');
+    name = prompt('what is your name?');
+
+
+    document.querySelector('#name').innerHTML = name
+    document.querySelector('#age').innerHTML = age
+
+</script>
+
+</body>
+
+</html>

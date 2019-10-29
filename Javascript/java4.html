@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson_7</title>
+    <link  rel="stylesheet" href="java4.css">
+
+</head>
+<body>
+ <div class="title" id="title">
+     Dear Javascript,
+ </div>
+
+<div class="subtitle" id="subtitle">
+    <div> subtitle 1 </div>
+    <div> subtitle 2</div>
+    <div> subtitle 3 </div>
+
+</div>
+
+<div  class="context" id="context">
+   I really don't get you but really want to know you better
+    <span class="colortext" id="colortext">
+
+i'm just telling you
+    </span>
+   but really you are so hard to get and I barely know things about you!
+
+</div>
+<button type="button" onclick="reversecolor() "> reverse </button>
+
+</body>
+<script>
+
+    let notReversed = true;
+
+
+    function reversecolor() {
+
+        if (notReversed) {
+            document.querySelector('#title').style.color = 'white';
+            document.querySelector('#title').style.backgroundColor = 'black';
+            document.querySelector('#title').style.borderBottom = '1px solid white';
+            document.querySelector('#subtitle').style.color = 'white';
+            document.querySelector('#subtitle').style.backgroundColor = 'black';
+            document.querySelector('#subtitle').style.borderRight = '2px solid white';
+            document.querySelector('#context').style.color = 'white';
+            document.querySelector('#context').style.backgroundColor = 'black';
+
+            notReversed = false;
+            //
+
+        } else {
+            document.querySelector('#title').style.color = 'black';
+            document.querySelector('#title').style.backgroundColor = 'white';
+            document.querySelector('#title').style.borderBottom = '1px solid black';
+            document.querySelector('#subtitle').style.color = 'black';
+            document.querySelector('#subtitle').style.backgroundColor = 'white';
+            document.querySelector('#subtitle').style.borderRight = '2px solid black';
+            document.querySelector('#context').style.color = 'black';
+            document.querySelector('#context').style.backgroundColor = 'white';
+
+            notReversed = true;
+        }
+    }
+
+</script>
+
+
+
+</html>

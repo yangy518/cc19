@@ -1,0 +1,92 @@
+* {box-sizing: border-box;
+}
+body{ margin:0;
+}
+
+.navigation-bar{
+    font-size: 45px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    position: relative;
+}
+
+.x-button{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: coral;
+    display: inline-block;
+    top:  20px;
+    right: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+    .x-button{
+
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+.button-wrap{
+    text-align: center;
+    padding: 20px;
+    /*display: inline-block;*/
+}
+.transition-button{
+
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid hotpink;
+    background-color: transparent;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    transition: font-size 0.5s ease;
+
+}
+
+.transition-button:hover{
+
+    background-color: coral;
+    font-size: 25px;
+}
+.focus-input-wrap{
+
+    transition: background-color 0.1s ease;
+}
+.focus-input{
+
+    height: 40px;
+    width: 300px;
+    border: 1px solid beige;
+    font-size:  14px;
+    padding: 8px;
+    transition: 0.15s ease;
+    outline: none;
+    /*    마우스는 두면 파랗게 빛나는게 outline 이다. */
+
+}
+
+.focus-input:focus{
+
+    border: 1px solid black;
+    font-size: 16px;
+
+}
+
+.focus-input-wrap:focus-within{
+
+    background-color: #9ba8df;
+
+}
+
+/*.label{*/
+/*    padding: 10px;*/
+/*    */
+/*}*/
