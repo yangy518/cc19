@@ -1,0 +1,79 @@
+body{
+    height:auto;
+    margin:0;
+    position: relative;
+}
+
+#ocean{
+    position:absolute;
+    width:100%;
+    min-height:100%;
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(0,50,150)),
+            color-stop(0.50, rgb(0,150,255))
+    );
+}
+.quadrant{
+    width: 100%;
+    height:100%;
+    margin: auto;
+    border-radius: 70%;
+    /*border: 5px solid black;*/
+}
+.quadrant1{
+    font-size: 15pt;
+    font-family: futura;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 400px;
+
+}
+
+.quadrant2{
+    font-size: 15pt;
+    font-family: futura;
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 400px;
+
+}
+
+.quadrant3{
+    font-size: 15pt;
+    font-family: futura;
+    color: white;
+    position: absolute;
+    top: 900px;
+    right: 400px;
+}
+.quadrant4{
+    font-size: 15pt;
+    font-family: futura;
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 400px;
+}
+.quadrant {
+    width: calc(50vw - 2px);
+    height: calc(50vh - 2px);
+    float: left;
+    border: 1px solid black;
+}
+
+.link{
+    font-size: 15pt;
+    font-family: futura;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.quadrant:hover {
+    cursor: grabbing;
+}
