@@ -1,38 +1,28 @@
-// Wait for page to load
-$(document).ready(function() {
+$(document).ready(function(){
 
-    // Create an array named "colors" with at least
-    // 5 different CSS color values
-    var colors=["blue", "skyblue", "darkblue", "orange", "white"];
+    var doc = $(document);
 
-    var colorIndex = 0;
-    //0 means the first color, which is the red
+    var width = doc.width() -50;
+    var height = doc.height() -50;
 
-    $(".quadrant").click(function() {
-
-        // Create a variable "color" and set it to the color
-        // in the array "colors" located at the index defined as "colorIndex"
-        var color=colors[colorIndex]
+    var shapes = [ $(".circle"), $(".triangle"), $(".square") ]
 
 
+    function randomStuff(){
+        var randomShape = shapes[ Math.floor(Math.random() * shapes.length ) ]
+        var clone = randomShape.clone().appendTo('body');
 
+        clone.last().css('right', Math.random() * width )
+        clone.last().css('top', Math.random() * height )
+    }
+    randomStuff();
 
-        // Shows colorIndex and color values in the browser "console"
-        console.log(colorIndex, color);
+    setInterval(function (){
 
+        randomStuff();
 
+    },50)
 
-        // Sets the CSS background to the variable color;
-        $(this).css({
-            background: color
-        });
+    console.log(randomShape)
 
-        // Add to "colorIndex" so the next click
-        // will use the next color in the array
-        // ???????????????????????????????
-        colorIndex=(colorIndex+1);
-        //	it adds one, so the next click, it will add up by 1. so it will keep adding up, till 5.
-
-    });
-
-});
+})
