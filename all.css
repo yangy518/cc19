@@ -1,0 +1,152 @@
+body {
+    /*background-image: url("sparkle.jpg");*/
+
+}
+
+.position{
+
+    position:absolute;
+
+}
+
+
+.position img{
+    width: 100%;
+}
+
+.position:hover img {
+    opacity: 35%;
+    cursor: pointer;
+    position: relative;
+}
+
+.position:hover .text {
+    /*opacity: 100%;*/
+
+}
+.text:hover{
+    opacity: 100%;
+}
+.text{
+    position: relative;
+    opacity: 0%;
+    /*top: 30px;*/
+    top: 10px;
+    left: 50px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+#home{
+     top: 20px;
+     left: 30px;
+     width: 20%;
+     /*height: 25%;*/
+ }
+.d_text:hover{
+    opacity: 100%;
+}
+.d_text{
+    position: relative;
+    opacity: 0%;
+    right: 10px;
+    bottom: 10px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+
+#year{
+    font-family: "American Typewriter";
+    top: 40px;
+    right: 100px;
+    font-size: 100px;
+}
+
+#text{
+    top: 21%;
+    right: 10%;
+
+}
+
+#duomo{
+    bottom: 0.5%;
+    right: 60px;
+    width: 25%;
+}
+
+
+#pizza{
+    bottom: 0.5%;
+    left: 600px;
+    width: 14%;
+}
+
+.p_text{
+    position: relative;
+    opacity: 0%;
+    right: 20px;
+    bottom: 10px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+.p_text:hover{
+    opacity: 100%;
+}
+#fountain{
+    bottom: 550px;
+    left: 600px;
+    width: 14%;
+
+}
+.c_text{
+    position: relative;
+    opacity: 0%;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+.c_text:hover{
+    opacity: 100%;
+
+}
+#citylife{
+    bottom: 0.01px;
+    left: 30px;
+    width: 17%;
+}
+.p_text{
+    position: relative;
+    opacity: 0;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+.p_text:hover{
+    opacity: 100%;
+}
+
+#prada{
+    bottom: 400px;
+    right: 40%;
+    width: 20%;
+
+}
+
+.sparkle{
+    top: 200px;
+    right: 100px;
+    padding: 10px;
+    position: fixed;
+    border: none;
+    background: pink;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'American Typewriter', sans-serif;
+
+}
+
+#overijse{
+    opacity: 100%;
+
+}

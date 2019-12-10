@@ -1,0 +1,149 @@
+body {
+    /*background-image: url("sparkle.jpg");*/
+
+}
+
+.position{
+    position:absolute;
+}
+
+.position img{
+    width: 100%;
+}
+
+.position:hover img {
+    opacity: 35%;
+    cursor: pointer;
+    position: relative;
+}
+
+.position:hover .text {
+    /*opacity: 100%;*/
+
+}
+.text:hover{
+    opacity: 100%;
+}
+.text{
+    position: relative;
+    opacity: 0%;
+    /*top: 30px;*/
+    left: 50px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+#drawing{
+    top: 20px;
+    left: 30px;
+    width: 30%;
+    /*height: 25%;*/
+}
+.t_text:hover{
+    opacity: 100%;
+}
+.t_text{
+    position: relative;
+    opacity: 0%;
+    right: 10px;
+    bottom: 10px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+
+#year{
+    font-family: "American Typewriter";
+    top: 140px;
+    right: 40%;
+    font-size: 100px;
+}
+
+#text{
+    top: 24%;
+    right: 40%;
+    width: 26%;
+}
+#tervuren{
+    bottom: 10px;
+    right: 0.9%;
+    width: 37%;
+}
+
+#isb{
+    bottom: 30px;
+    left: 600px;
+    width: 20%;
+}
+
+.a_text{
+    position: relative;
+    opacity: 0%;
+    right: 20px;
+    bottom: 10px;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+.a_text:hover{
+    opacity: 100%;
+}
+
+.f_text{
+    position: relative;
+    opacity: 0%;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+.f_text:hover{
+    opacity: 100%;
+
+}
+#fountain{
+    bottom: 30px;
+    left: 30px;
+    width: 20%;
+
+}
+.i_text{
+    position: relative;
+    opacity: 0;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+.i_text:hover{
+    opacity: 100%;
+}
+
+#africa{
+    top: 70px;
+    right: .9%;
+    width: 24%;
+}
+.a_text{
+    position: relative;
+    opacity: 0%;
+    font-family: "American Typewriter";
+    font-size: 35px;
+}
+
+.a_text:hover{
+    opacity: 100%;
+}
+.sparkle{
+    top: 200px;
+    right: 30%;
+    padding: 10px;
+    position: fixed;
+    border: none;
+    background: lightsalmon;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'American Typewriter', sans-serif;
+}
+
+#overijse{
+    opacity: 100%;
+
+}

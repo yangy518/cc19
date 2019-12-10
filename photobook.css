@@ -1,0 +1,18 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(190, 198, 237);
+    background: linear-gradient(180deg, rgba(203, 81, 107) 1%, rgba(228, 114, 179, 0.9290091036414566) 43%, rgb(95, 183, 180) 100%);
+    background-repeat: no-repeat;
+    opacity: 100%;
+
+
+}
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+
+}
