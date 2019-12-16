@@ -28,7 +28,7 @@ body {
     /*top: 30px;*/
     left: 50px;
     font-family: "American Typewriter";
-    font-size: 50px;
+    font-size: 25px;
 }
 
 #drawing{
@@ -49,7 +49,7 @@ body {
 #text{
     top: 24%;
     right: 40%;
-    width: 26%;
+    width: 20%;
 }
 #tervuren{
     bottom: 2%;
