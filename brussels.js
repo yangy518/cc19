@@ -4,7 +4,7 @@ $(document).ready(function() {
             backgroundImage: "url('orange.jpg')"
 
         })
-
+        $(this).text("sent!");
 
 
     })

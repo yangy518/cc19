@@ -18,12 +18,10 @@ body {
 }
 
 .position:hover .text {
-    /*opacity: 100%;*/
+    opacity: 100%;
 
 }
-.text:hover{
-    opacity: 100%;
-}
+
 .text{
     position: relative;
     opacity: 0%;
@@ -34,27 +32,16 @@ body {
 }
 
 #drawing{
-    top: 20px;
-    left: 30px;
+    top: 2%;
+    left: 2%;
     width: 30%;
     /*height: 25%;*/
-}
-.t_text:hover{
-    opacity: 100%;
-}
-.t_text{
-    position: relative;
-    opacity: 0%;
-    right: 10px;
-    bottom: 10px;
-    font-family: "American Typewriter";
-    font-size: 50px;
 }
 
 
 #year{
     font-family: "American Typewriter";
-    top: 140px;
+    top: 10%;
     right: 40%;
     font-size: 100px;
 }
@@ -65,71 +52,32 @@ body {
     width: 26%;
 }
 #tervuren{
-    bottom: 10px;
+    bottom: 2%;
     right: 0.9%;
     width: 37%;
 }
 
 #isb{
-    bottom: 30px;
-    left: 600px;
+    bottom: 0.01%;
+    left: 23%;
     width: 20%;
 }
 
-.a_text{
-    position: relative;
-    opacity: 0%;
-    right: 20px;
-    bottom: 10px;
-    font-family: "American Typewriter";
-    font-size: 50px;
-}
-.a_text:hover{
-    opacity: 100%;
-}
 
-.f_text{
-    position: relative;
-    opacity: 0%;
-    font-family: "American Typewriter";
-    font-size: 50px;
-}
-.f_text:hover{
-    opacity: 100%;
-
-}
 #fountain{
-    bottom: 30px;
-    left: 30px;
+    bottom: 0.1%;
+    left: 2%;
     width: 20%;
 
 }
-.i_text{
-    position: relative;
-    opacity: 0;
-    font-family: "American Typewriter";
-    font-size: 50px;
-}
 
-.i_text:hover{
-    opacity: 100%;
-}
 
 #africa{
-    top: 70px;
+    top: 3%;
     right: .9%;
     width: 24%;
 }
-.a_text{
-    position: relative;
-    opacity: 0%;
-    font-family: "American Typewriter";
-    font-size: 35px;
-}
 
-.a_text:hover{
-    opacity: 100%;
-}
 .sparkle{
     top: 200px;
     right: 30%;
