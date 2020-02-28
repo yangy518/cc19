@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="photobook.css"/>
+
+    <title>collection book</title>
+</head>
+<style>
+    #title{
+        height:100%;
+        width:100%;
+        float:left;
+        font-size: 3.9vw;
+        text-align: center;
+        padding: 300px 0 0 0;
+        color: rgb(0, 0, 0);
+        line-height: 4vw;
+        font-family: "American Typewriter";
+        -webkit-animation-timing-function: linear;
+        position: relative;
+        -webkit-animation-name: title-example;
+        -webkit-animation-duration: 4s;
+        animation-name: title-example;
+        animation-duration: 4s;
+
+
+    }
+
+
+    @-webkit-keyframes title-example {
+        from {color: transparent;}
+        to {color: rgb(0, 0, 0);}
+        to {color: rgb(0, 0, 0);}
+        to {color: rgb(0, 0, 0);}
+        to {color: rgb(0, 0, 0);}
+    }
+
+    #title span{
+        color: rgba(203, 81, 107);
+        -webkit-animation-timing-function: linear;
+        position: relative;
+        -webkit-animation-name: home-example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: home-example;
+        animation-duration: 4s;
+
+    }
+    #title span:hover{
+        text-decoration: none;
+    }
+    #year{
+        color: rgb(0, 0, 0);
+        font-weight:lighter;
+        font-size: 2vw;
+        -webkit-animation-timing-function: linear;
+        position: relative;
+        -webkit-animation-name: title-example;
+        -webkit-animation-duration: 4s;
+        animation-name: title-example;
+        animation-duration: 4s;
+
+    }
+    .postcard{
+
+        opacity: 90%;
+        position: relative;
+        text-align: center;
+        max-width: 80%;
+        height: 1000px;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-image: url(postcard.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 200px;
+
+
+
+    }
+
+
+    .navigation-bar-bundle{
+
+        top: 10px;
+        right: 10px;
+
+        padding: 10px;
+        position: fixed;
+
+    }
+
+    .navigation-button{
+        border: none;
+        background: pink;
+        font-size: 18px;
+        padding: 30px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-family: 'American Typewriter', sans-serif;
+
+        /*   Hello, Works  버튼 오른쪽으로 띄어져있는 여백 공간이 10px 이다*/
+        /*마진은 element끼리 서로를 띄우는 역할을 한다. */
+    }
+
+
+</style>
+
+<body>
+
+
+<div class="postcard">
+    <div class="text">  <div id="title">sending you  <span>postcards</span> from where I lived! ♥ <div id="year"> 2010 - 2019.</div></div></div>
+    <background image class="postcard" src="postcard.jpg">
+</div>
+
+
+
+<div class="navigation-bar-bundle">
+   <a href="brussels.html"> <button class="navigation-button" type="button" onclick="" ">Brussels</button>
+ <a href="milano.html"> <button class="navigation-button" type="button" onclick="">Milano</button>
+<!--    <a class="webpage-direct" href="https://www.youtube.com/">Youtube</a>-->
+</div>
+
+
+</body>
+</html>
